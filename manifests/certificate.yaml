@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: kheng-sovannak1578-nakblogwebsites-certificate
+  namespace: kheng-sovannak1578-nakblogwebsites
+spec:
+  secretName: kheng-sovannak1578-nakblogwebsites-secret-tls
+  commonName: kheng-sovannak1578-nakblogwebsites.assessify.org
+  dnsNames:
+  - kheng-sovannak1578-nakblogwebsites.assessify.org
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
