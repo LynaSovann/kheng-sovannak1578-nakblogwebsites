@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: kheng-sovannak1578-nakblogwebsites-container
-          image: pipejet/kheng-sovannak1578-nakblogwebsites:0
+          image: pipejet/kheng-sovannak1578-nakblogwebsites:1
           ports:
             - containerPort: 5173
